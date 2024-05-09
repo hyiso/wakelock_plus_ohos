@@ -1,6 +1,6 @@
 {
   "module": {
-    "name": "wakelock",
+    "name": "wakelock_plus_ohos",
     "type": "har",
     "deviceTypes": [
       "default",

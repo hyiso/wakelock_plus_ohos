@@ -1,6 +1,6 @@
 name: wakelock_plus_ohos
 description: The OpenHarmony implementation of wakelock_plus.
-version: 0.0.1
+version: 0.0.2
 repository: https://github.com/harmonycandies/wakelock_plus_ohos
 topics:
   - wakelock
@@ -40,7 +40,6 @@ flutter:
   plugin:
     platforms:
       ohos:
-        package: com.harmonycandies.wakelock_plus_ohos
         pluginClass: WakelockPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
