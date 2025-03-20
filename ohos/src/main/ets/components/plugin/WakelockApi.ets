@@ -147,7 +147,7 @@ export abstract class WakelockApi {
     {
       let channel: BasicMessageChannel<Object> =
         new BasicMessageChannel(
-          binaryMessenger, "dev.flutter.pigeon.WakelockPlusApi.toggle", WakelockApi.getCodec());
+          binaryMessenger, "dev.flutter.pigeon.wakelock_plus_platform_interface.WakelockPlusApi.toggle", WakelockApi.getCodec());
       if (api != null) {
         channel.setMessageHandler({
           async onMessage(message: Object, reply: Reply<Object>) {
@@ -171,7 +171,7 @@ export abstract class WakelockApi {
     {
       let channel: BasicMessageChannel<Object> =
         new BasicMessageChannel(
-          binaryMessenger, "dev.flutter.pigeon.WakelockPlusApi.isEnabled", WakelockApi.getCodec());
+          binaryMessenger, "dev.flutter.pigeon.wakelock_plus_platform_interface.WakelockPlusApi.isEnabled", WakelockApi.getCodec());
       if (api != null) {
         channel.setMessageHandler({
           async onMessage(message: Object, reply: Reply<Object>) {
